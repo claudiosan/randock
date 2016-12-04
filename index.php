@@ -1,9 +1,13 @@
 <?php
 session_start();
-include_once('db.comfig.php');
+include_once('db.config.php');
+include_once('controllers.php');
+/*
 echo "SESSION:::<br />";
 print_r($_SESSION);
 echo("<br />::::::::::::::");
+
+/**/
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,9 +30,9 @@ echo("<br />::::::::::::::");
 
 <?php
 if(!isset($_SESSION['user'])){
-	include('view/login.php');
+	include('views/login.php');
 } else {
-	include('view/form.php');
+	include('views/form.php');
 }
 ?>
 	
