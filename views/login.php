@@ -1,12 +1,5 @@
 <div class="container">
-	<?php
-	if(isset($message)){ ?>
-	
-		<div class="col-xs-12">
-			<div class="alert alert-danger" role="alert"><?php echo($message);?></div>
-		</div>
-
-	<?php } ?>
+	<?php include('views/message.php'); ?>
 
 	<div class="col-xs-4 col-xs-offset-4">
 		<form class="form-signin" action="index.php" method="post">

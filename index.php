@@ -16,7 +16,7 @@ echo("<br />::::::::::::::");
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<style type="text/css">
-		.top30 {
+		.top80 {
 			padding-top: 80px;
 		}
 	</style>

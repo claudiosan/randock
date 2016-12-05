@@ -17,6 +17,19 @@
 	</div>
 </nav>
 
-<div class="container">
-	
+<div class="container top80">
+	<?php include('views/message.php'); ?>
+
+	<div class="col-xs-4 col-xs-offset-4">
+		<form class="form" action="index.php" method="post">
+			<h2 class="form-heading">Create user</h2>
+			<label for="inputFirstName" class="sr-only">FirstName</label>
+			<input type="text" name="inputFirstName" id="inputFirstName" class="form-control" placeholder="FirstName" required="required" autofocus="">
+			<label for="inputLastName" class="sr-only">LastName</label>
+			<input type="text" name="inputLastName" id="inputLastName" class="form-control" placeholder="LastName" required="required">
+			<div class="checkbox">
+			</div>
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Create User</button>
+		</form>
+	</div>
 </div>
